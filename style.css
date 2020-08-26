@@ -1,0 +1,188 @@
+html, body {
+    width: 100%;
+}
+
+body {
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* height: 100vh; */
+    background-position: top;
+     background-image: linear-gradient(rgba(39, 41, 66, 0.95), rgba(45, 39, 71, 0.95)), url(./imgs/bg4.jpg); 
+     /* background-color: black; */
+}
+#title {
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+    color: #fff;
+}
+#description {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.form-wrapper {
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    background-color: rgb(113, 118, 184);
+    max-width: 700px; 
+    margin: 0 auto 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(13, 14, 13, 0.125);
+}
+#survey-form {
+    /* text-align: center; */
+    font-family: 'Comfortaa', cursive;
+    color: rgba(36, 40, 94, 0.95);
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 30px 40px;
+}
+
+#name-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+#name {
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: rgb(245, 244, 168);
+}
+#email-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+
+#email {
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: rgb(245, 244, 168);
+}
+#number-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+
+#number {
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: rgb(245, 244, 168);
+}
+::placeholder {
+    font-family: 'Comfortaa', cursive;
+    padding-left: 10px;;
+}
+#option-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+#dropdown {
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 35px;
+    background-color: rgb(245, 244, 168);
+}
+#radio-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+    position: relative;
+}
+
+#radio-button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: rgb(245, 244, 168);
+    border: 3px solid rgb(109, 61, 153);
+}
+#radio-button :hover{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: rgb(245, 244, 168);
+    border: 3px solid rgb(245, 244, 168);
+}
+#radio-button ::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    border: 3px solid rgb(245, 244, 168);
+}
+#checkbox-label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+#checkbox-label i {
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+    margin: 16px 5px;
+}
+#check-button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: rgb(245, 244, 168);
+    border: 3px solid rgb(109, 61, 153);
+}
+#check-button :hover{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: rgb(245, 244, 168);
+    border: 3px solid rgb(245, 244, 168);
+}
+#check-button ::after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    border: 3px solid rgb(245, 244, 168);
+}
+#comment-label i {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    margin: 16px 5px;
+}
+#comments {
+    border-radius: 50%;
+    color: rgba(36, 40, 94, 0.95);
+    font-family: 'Comfortaa', cursive;
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 100px;
+    background-color: rgb(245, 244, 168);
+}
+#submit-button {
+    margin: 10px 0 0 0;
+    width: 600px;
+    border-radius: 6px;
+    height: 30px;
+    background-color: rgb(91, 78, 128);
+    border: none;
+    display: block;
+    cursor: pointer; 
+}
+ b{
+    color: rgb(245, 244, 168);
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
